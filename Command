@@ -1,18 +1,26 @@
-	Install Nodejs using the following command
+Install Nodejs using the following command
 			sudo apt-get install nodejs
 	
-	Install the angular CLI using the following command
+Install the angular CLI using the following command
 			npm install -g  @angular/cli
 
-  Create project using the following command
+Create project using the following command
 				ng new angularProjectName
 
-  Install bootstrap framework on your project using this command in your project directory
+Install bootstrap framework on your project using this command in your project directory
 				npm install bootstrap –save
         
-  Bulid the project
-			ng serve
+Bulid the project
+		ng serve
 
-	To Build the project and start the server
+To Build the project and start the server
 			ng serve -o
+			
+Command to create the component.
+	ng generate component yourcomponentName
+	
+To create a service
+	ng g service yourserviceName
+	
+			
 
